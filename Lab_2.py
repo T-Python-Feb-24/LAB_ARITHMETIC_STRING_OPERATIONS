@@ -5,12 +5,12 @@
 # 5. Calculate the tax by multiplying the subtotal by the tax rate (in decimal form, e.g., 0.075) and store the result in a variable named "tax".
 # 6. Calculate the total cost by adding the subtotal and the tax, and store the result in a variable named "total".
 
-price :int = 5  
-quantity :int = 3 
-tax_rate :int = 15
-subtotal = price * quantity
-tax = subtotal * (tax_rate/100)
-total = subtotal + tax 
+price:float = 5.80
+quantity:int = 3 
+tax_rate:float = 15.0
+subtotal:float = price * quantity
+tax:float = round(subtotal * (tax_rate/100),2)
+total:float = round(subtotal + tax,2) 
 
 # 7. Print the subtotal, tax, and total costs, formatted as currency (e.g., $8.97 for the total cost).
 print(f'''Subtotal: ${subtotal}
