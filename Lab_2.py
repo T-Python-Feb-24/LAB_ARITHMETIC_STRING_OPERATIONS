@@ -13,16 +13,15 @@ tax = subtotal * (tax_rate/100)
 total = subtotal + tax 
 
 # 7. Print the subtotal, tax, and total costs, formatted as currency (e.g., $8.97 for the total cost).
-print(f'''Subtotal: {subtotal}$
-      \n Tax: {tax}$
-      \n Total: {total}$''')
+print(f'''Subtotal: ${subtotal}
+      \n Tax: ${tax}
+      \n Total: ${total}''')
  
-
 # Addison Step To check all the values: 
-print(f'''Price of item: {price}$ 
+print(f'''Price of item: ${price}
       \n Quantity: {quantity} 
       \n Tax rate: {tax_rate}%
-      \n Subtotal: {subtotal}$
-      \n Tax: {tax}$
-      \n Total: {total}$''')
+      \n Subtotal: ${subtotal}
+      \n Tax: ${tax}
+      \n Total: ${total}''')
 
