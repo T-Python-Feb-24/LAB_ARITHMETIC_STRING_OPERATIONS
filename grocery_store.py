@@ -8,7 +8,7 @@ total: float = subtotal + tax
 
 print(f'''
 Price of item: ${price}
-Quantity: ${quantity}
+Quantity: {quantity}
 Tax Rate: {tax_rate:0.1%}
 
 Subtotal: ${subtotal}
