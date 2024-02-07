@@ -7,7 +7,7 @@ quantity = 3
 print("Quantity: ", quantity)
 
 #Define a variable named "tax_rate" and set its value to the tax rate in your area (e.g., 7.5%).
-tax_rate = 7.5
+tax_rate = "7.5%"
 print("Tax rate: %",tax_rate)
 
 #Calculate the subtotal by multiplying the price by the quantity and store the result in a variable named "subtotal".
