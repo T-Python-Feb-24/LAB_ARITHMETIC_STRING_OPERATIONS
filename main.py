@@ -1,5 +1,5 @@
 #Define a variable named "price" and set its value to the cost of the item the customer is purchasing (e.g., $2.99).
-price = 2.99
+price = "$2.99"
 print("Price of item: ", price)
 
 #Define a variable named "quantity" and set its value to the number of items the customer is purchasing (e.g., 3).
@@ -11,7 +11,7 @@ tax_rate = 7.5
 print("Tax rate: %",tax_rate)
 
 #Calculate the subtotal by multiplying the price by the quantity and store the result in a variable named "subtotal".
-subtotal = price * quantity
+subtotal = 2.99 * quantity
 print("Without tax: ", round(subtotal,2))
 
 #Calculate the tax by multiplying the subtotal by the tax rate (in decimal form, e.g., 0.075) and store the result in a variable named "tax".
