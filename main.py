@@ -12,13 +12,13 @@ print("Tax rate: %",tax_rate)
 
 #Calculate the subtotal by multiplying the price by the quantity and store the result in a variable named "subtotal".
 subtotal = price * quantity
-print("Without tax: ", subtotal,"and rounded it should be: ",round(subtotal))
+print("Without tax: ", round(subtotal,2))
 
 #Calculate the tax by multiplying the subtotal by the tax rate (in decimal form, e.g., 0.075) and store the result in a variable named "tax".
 tax = subtotal * 0.075
-print("Tax: ", tax)
+print("Tax: ", round(tax,2))
 
 #Calculate the total cost by adding the subtotal and the tax, and store the result in a variable named "total".
 total = subtotal + tax 
-print("The total is: ", total, "and rounded it should be: ", round(total))
+print("The total is: ", round(total,2))
 
