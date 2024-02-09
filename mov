@@ -1,0 +1,11 @@
+movie="no"
+Rat:int = 3
+popularity :float = 72.65
+if Rat>= 4 and property <80:
+    print("highly recommended")
+elif Rat >= 3 or property <70:
+    print(" it is good")
+elif Rat >=2 or property <60:
+    print(" you should check it out")
+elif Rat >=2 or property <50:
+    print ("dont watch it")
